@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <title> Ordenadas, Não Ordenadas e Lista de Definição</title>
+  </head>
+  <body>
+  <p>Ordenada</p>
+  <ol>
+    <li>Primeiro item</li>
+    <li>Segundo item</li>
+  </ol>
+  <p>Não Ordenadas</p>
+  <ul>
+    <li style="color: red;">Vermelho</li>
+    <li style="color: blue;">Azul</li>
+  </ul>
+  <p>Lista deDefinição</p>
+<dl>
+<dt>Rio de Janeiro</dt>
+<dd>*Cidade maravilhosa</dd>
+<dt>São Paulo</dt>
+<dd>*Cidade mais populosa do Brasil</dd>
+</dl>
+  </body>
+</html>
