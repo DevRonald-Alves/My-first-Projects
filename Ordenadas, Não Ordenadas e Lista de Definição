@@ -3,24 +3,35 @@
   <head>
     <meta charset="utf-8">
   <title> Ordenadas, Não Ordenadas e Lista de Definição</title>
+  <style>
+    h1 {background-color: rgb(8, 90, 99, 0.5); color: white; text-align: center;}
+    ol {background-color: rgba(8, 90, 99, 0.975); color: white;}
+    dl {background-color: rgba(8, 90, 99, 0.975); color: rgb(255, 255, 255);}
+    ul {background-color: rgba(8, 90, 99, 0.975);}
+   
+  </style>
   </head>
   <body>
-  <p>Ordenada</p>
+  <h1>Ordenada</h1>
   <ol>
     <li>Primeiro item</li>
     <li>Segundo item</li>
   </ol>
-  <p>Não Ordenadas</p>
+  <h1>Não Ordenadas</h1>
   <ul>
-    <li style="color: red;">Vermelho</li>
-    <li style="color: blue;">Azul</li>
+    <strong>
+    <li style="color: rgb(255, 95, 95);">Vermelho</li>
+    <li style="color: rgb(99, 214, 249);">Azul</li>
+  </strong>
   </ul>
-  <p>Lista deDefinição</p>
+  <h1>Lista de Definição</h1>
 <dl>
 <dt>Rio de Janeiro</dt>
 <dd>*Cidade maravilhosa</dd>
 <dt>São Paulo</dt>
 <dd>*Cidade mais populosa do Brasil</dd>
 </dl>
+
   </body>
 </html>
+
